@@ -116,7 +116,7 @@ module.exports = (() => {
 			const CompactCozyModule = BdApi.findModuleByProps("compact", "cozy");
 			const ComponentDispatchModule = BdApi.findModuleByProps("ComponentDispatch");
 			const ComputePermissionsModule = BdApi.findModuleByProps("computePermissions");
-			const DirtyDispatcherModule = BdApi.findModuleByProps("dirtyDispatch");
+			const DirtyDispatcherModule = BdApi.findModuleByProps("dispatch", "subscribe");
 			const DiscordConstants = BdApi.findModuleByProps("API_HOST");
 			const EditMessageModule = BdApi.findModuleByProps("editMessage");
 			const EmojiModule = BdApi.findModule(m => m.Emoji && m.default.getByName);
